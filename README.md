@@ -1,33 +1,28 @@
-# Copy as Markdown (Firefox)
+# Copy as Yet-Another-Markup-Link
 
-This is Copy as Markdown for Firefox.
+This is "Copy as Yet-Another-Markup-Link" for Firefox.
 
 ## Requirements
 
-* Firefox 30+
+Firefox 48+
 
 ## Implemented Features
 
-* Copy all tabs of current window as a Markdown list.
-* Right click on anywhere of a page and copy the page title with URL as Markdown.
-* Right click on a link and copy it as Markdown.
-* Right click on an image and copy it as Markdown.
-
-## TODO
-
-* When copying an Image, if it is wrapped by a link, then the copied Markdown should also include that link.
+Right click on Web Pages offers copy the link to this in page in
+Markdown, org mode, Textile or Jira notation.
 
 ## Development
 
-1. Install Firefox 30+.
-* [Install Firefox Add-ON SDK](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation) if you haven't installed it.
+* [Firefox Developer Edition — Mozilla](https://www.mozilla.org/en-US/firefox/developer/)
+* [Install Firefox Add-ON SDK](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation)
+  if you haven't installed it.
 * Run `jpm run` from Terminal
 
 ## License
 
-(The MIT License. Same as the chrome version.)
+(The MIT License)
 
-Copyright (c) 2014 Yu-Cheng Chuang
+Copyright (c) 2016 Yu-Cheng Chuang, Benjamin Weißenfels
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -46,3 +41,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+## Thanks
+
+This Add-on is based on
+[chitsaou/copy-as-markdown: Copying Link, Image and Tab(s) as Markdown Much Easier.](https://github.com/chitsaou/copy-as-markdown)

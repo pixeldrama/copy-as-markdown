@@ -1,0 +1,18 @@
+{
+  "name": "copy-as-yet-another-markup-language-link",
+  "title": "Copy as Yet-Another-Markup-Link",
+  "id": "jid1-tfBgelm3d4bLkQ@jetpack",
+  "description": "Copy Links as Markdown, Jira, Textile, org mode",
+  "author": "Benjamin Weißenfels",
+  "license": "MIT",
+  "version": "0.0.1",
+  "preferences": [
+    {
+      "name": "escape",
+      "title": "Escape special chars/markup code",
+      "description": "If checked, all unsafe markup code will be escaped (e.g. [] becomes \\[\\])",
+      "type": "bool",
+      "value": false
+    }
+  ]
+}
